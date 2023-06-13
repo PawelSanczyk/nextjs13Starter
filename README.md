@@ -12,6 +12,9 @@ To jest czysty projekt startowy NextJS z customowym stackiem technologicznym.
 - Prettier: Jest to narzędzie do formatowania kodu, które automatycznie formatuje kod JavaScript, aby był bardziej czytelny i zgodny z ustalonymi zasadami stylu.
 - Husky: Jest to narzędzie, które pozwala na automatyczne uruchamianie skryptów (takich jak testy lub linting) przed każdym zatwierdzeniem git, co pomaga zapobiegać wprowadzaniu błędów do kodu.
 - Lint-staged: Jest to narzędzie, które pozwala na uruchamianie linterów (takich jak ESLint) tylko na plikach, które są w stanie "staged" w git, co przyspiesza proces linting.
+- Madge: Jest to narzędzie, które pozwala na wizualizację zależności między modułami w projekcie, co pomaga w utrzymaniu porządku w kodzie.
+- Storybook: Jest to narzędzie, które pozwala na tworzenie i wizualizację komponentów React, co pomaga w tworzeniu i testowaniu komponentów.
+
 
 ## Architektura
 
@@ -22,8 +25,8 @@ Projekt oparty o typescript w trybie strict z dodoatkowymi regułami zwiekszajac
 - Nextjs App router
 
 ### Zarządzania stanem aplikacji:
-- React Context API: do modułowego zarządzania stanem aplikacji i ogólnych funkcjonalności
-- XState: do zarządzania stanem aplikacji w bardziej złożonych przypadkach użycia
+- React Context API z biblioteka unstated-next do modułowego zarządzania stanem aplikacji i ogólnych funkcjonalności
+- XState do zarządzania stanem aplikacji w bardziej złożonych przypadkach użycia
 
 
 ### Proponowane użycie bibliotek do komunikacji z api:
