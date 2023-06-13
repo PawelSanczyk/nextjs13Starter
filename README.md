@@ -8,6 +8,7 @@ To jest czysty projekt startowy NextJS z customowym stackiem technologicznym.
 - [React 18](htttp://reactjs.org): Jest to najnowsza wersja popularnej biblioteki do tworzenia interfejsów użytkownika. Umożliwia tworzenie dynamicznych interfejsów użytkownika za pomocą komponentów.
 - Jest: Jest to biblioteka do testowania JavaScript, która jest łatwa w konfiguracji i zapewnia pełne pokrycie kodu.
 - React Testing Library: Jest to zestaw narzędzi do testowania komponentów React, które symulują zachowania użytkownika, a nie szczegóły implementacji.
+- Cypress: Jest to narzędzie do testowania aplikacji internetowych przedewszystkim E2E, które umożliwia testowanie aplikacji w przeglądarce.
 - Eslint: Jest to narzędzie do analizowania kodu JavaScript pod kątem błędów i niezgodności ze stylami programowania.
 - Prettier: Jest to narzędzie do formatowania kodu, które automatycznie formatuje kod JavaScript, aby był bardziej czytelny i zgodny z ustalonymi zasadami stylu.
 - Husky: Jest to narzędzie, które pozwala na automatyczne uruchamianie skryptów (takich jak testy lub linting) przed każdym zatwierdzeniem git, co pomaga zapobiegać wprowadzaniu błędów do kodu.
@@ -36,6 +37,7 @@ Biblioteki nie są zainstalowane w projekcie, ale są proponowane do użycia.
 - [Axios](https://github.com/axios/axios)
 #### GraphQL:
 - [Zeus](https://github.com/graphql-editor/graphql-zeus)
+- [Apollo Client](https://www.apollographql.com/docs/react/)
 
 ## Getting Started
 Projekt oparty na [pnpm](https://pnpm.io/). Pnpm jest szybszy i lżejszy od npm i yarn.
