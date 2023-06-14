@@ -48,7 +48,7 @@ pnpm install
 ```
 #### Uruchomienie projektu:
 ```bash
-pnpm install
+pnpm dev
 ```
 Domyślny adres [http://localhost:3000](http://localhost:3000) otworzyć w przeglądarce.
 
