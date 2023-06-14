@@ -52,3 +52,17 @@ pnpm dev
 ```
 Domyślny adres [http://localhost:3000](http://localhost:3000) otworzyć w przeglądarce.
 
+### WorkFlow
+
+#### Tworzenie commitów:
+Commity mają wymagane określenie zawrtości w postaci jednego z prefixu:
+- 'feat': wprowadzenie nowej funkcjonalności
+- 'fix': naprawa błędu
+- 'update': aktualizacja istniejącej funkcjonalności
+- 'refactor': refaktoryzacja kodu
+- 'test': dodanie testów lub zmiany w kodzie tylko do przetestowania
+- 'revert': cofnięcie, usuniecie z kodu funkcjonalności
+Przykład:
+```bash
+git commit -m "feat: dodanie nowej funkcjonalności"
+```
