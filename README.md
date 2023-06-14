@@ -26,8 +26,8 @@ Projekt oparty o typescript w trybie strict z dodoatkowymi regułami zwiekszajac
 - Nextjs App router
 
 ### Zarządzania stanem aplikacji:
-- React Context API z biblioteka unstated-next do modułowego zarządzania stanem aplikacji i ogólnych funkcjonalności
-- XState do zarządzania stanem aplikacji w bardziej złożonych przypadkach użycia
+- Zustand do zarządzania stanem aplikacji po stronie SSR i RSC
+
 
 
 ### Proponowane użycie bibliotek do komunikacji z api:
